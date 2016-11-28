@@ -1,0 +1,23 @@
+{
+  "name": "victorops",
+  "version": "1.0.0",
+  "description": "victorops",
+  "main": "index.js",
+  "author": "Janne Koponen <janne.koponen@wunder.io>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://portal.victorops.com/auth",
+    "serviceName": "Victorops",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}

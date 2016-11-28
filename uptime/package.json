@@ -1,0 +1,23 @@
+{
+  "name": "uptime",
+  "version": "1.0.0",
+  "description": "uptime",
+  "main": "index.js",
+  "author": "Janne Koponen <janne.koponen@wunder.io>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://uptime.com/accounts/login",
+    "serviceName": "Uptime",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}

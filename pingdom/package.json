@@ -1,0 +1,23 @@
+{
+  "name": "pingdom",
+  "version": "1.0.0",
+  "description": "pingdom",
+  "main": "index.js",
+  "author": "Janne Koponen <janne.koponen@wunder.io>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://my.pingdom.com/",
+    "serviceName": "Pingdom",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
